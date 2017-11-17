@@ -11,29 +11,14 @@
     tools:context="com.example.aschrage6050.placepicker.MainActivity">
 
     <Button
-        android:id="@+id/btGetPlace"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="Get Place" />
-    <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get Your Location"
-        android:layout_above="@+id/tvPlaceAddress"
-        android:layout_alignStart="@+id/btGetPlace" />
 
-    <TextView
-        android:id="@+id/tvPlaceName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btGetPlace"
-        android:layout_marginTop="80dp"
-        android:text="Place Name"
-        android:textSize="16sp"
-        android:textStyle="bold" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -41,23 +26,10 @@
         android:text="Your Location"
         android:textSize="16sp"
         android:textStyle="bold"
-        android:layout_below="@+id/tvPlaceAddress" />
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp" />
 
-    <TextView
-        android:id="@+id/tvPlaceAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvPlaceName"
-        android:text="Place Address"
-        android:textSize="16sp" />
 
-    <WebView
-        android:id="@+id/wvAttribution"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:text="Attribution"
-        android:textSize="16sp" />
 
 </RelativeLayout>
